@@ -15,7 +15,7 @@
         </audio>     
         <h1>Fill out here and get to know some <i>amazing</i> things!!</h1></center>
         </header>
-        <form method="post" action="introprofac.html">
+        <form method="post" id="form1">
             <fieldset name="PI">
                 <legend><h2>PERSONAL INFORMATION</h2></legend>
                 <label for="fname">FIRST NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
@@ -62,7 +62,7 @@
                 <label for="rst">For Any Changes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                     <input type="reset" name="reset" value="RESET" id="rst"/><br>
             </fieldset><br>
-                <center><input type="submit" name="submit" value="SUBMIT" id="sbt"/></center>  
+                <center><a href="introprofac.html"><button type="submit" form="form1" value="SUBMIT">SUBMIT</button></a></center>  
         </form>
     </body>
 </html>
